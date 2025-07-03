@@ -27,7 +27,10 @@ console.log(teachers)
 
 
 // 4. Rimuovi il primo insegnante dall'array e salvalo nella variabile firstTeacher qui sotto
-const firstTeacher = null;
+const firstTeacher = teachers[0];
+teachers.splice(0, 1)
+console.log(firstTeacher)
+console.log(teachers)
 
 // 5. Aggiungi un insegnante di nome 'Vanessa' alla fine dell'array teachers
 
